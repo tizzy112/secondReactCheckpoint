@@ -1,0 +1,76 @@
+/* src/App.css */
+
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  color: #fff;
+}
+
+.App-header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-bottom: 2px solid #0072ff;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+main {
+  padding: 20px;
+}
+
+.players-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+  border-bottom: 2px solid #0072ff;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #0072ff;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-img img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}

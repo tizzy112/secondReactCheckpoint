@@ -1,0 +1,41 @@
+/* src/Player.css */
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+  border-bottom: 2px solid #0072ff;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #0072ff;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-img img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
